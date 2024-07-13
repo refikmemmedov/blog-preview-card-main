@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(assets/fonts/Figtree-VariableFont_wght.ttf) format('truetype');
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    width:100vw;
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree';
+}
+
+.container{
+    width: 384px;
+    background-color: white;
+    height: 522px;
+    padding: 24px;
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 9px 9px 0px 3px rgba(0,0,0,1);;
+}
+
+.article img {
+    border-radius: 10px;
+}
+
+.lrn{
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+.lrn span {
+    background-color: hsl(47, 88%, 63%);
+    color: black;
+    padding: 4px 16px;
+    width: 82px;
+    height: 29px;
+    border-radius: 4px;
+    font-weight: 800;
+}
+
+.date{
+    padding-bottom: 12px;
+}
+
+.heading{
+    padding-bottom: 12px;
+    font-size: 24px;
+}
+
+.heading a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.heading a:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.paragraph{
+    padding-bottom: 12px;
+    color: grey;
+    font-size: 16px;
+}
+
+.author{
+    padding-top: 12px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author img{
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+.author span{
+    font-weight: 800;
+    text-align: center;
+}
+
+.attribution{
+    padding-top: 24px;
+}
